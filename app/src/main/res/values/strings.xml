@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">InstaMedia Saver</string>
+    <string name="nav_download">Download</string>
+    <string name="nav_history">History</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Download / Home Screen -->
+    <string name="home_subtitle">Download public Instagram photos, Reels &amp; carousels you own or have permission to save</string>
+    <string name="url_input_label">Public Instagram Post or Reel URL</string>
+    <string name="url_input_placeholder">https://www.instagram.com/p/ABC123xyz/ or /reel/...</string>
+    <string name="btn_paste">Paste Link</string>
+    <string name="btn_clear">Clear</string>
+    <string name="btn_fetch_preview">Preview Media</string>
+    <string name="fetching_media">Resolving media metadata…</string>
+
+    <!-- Preview & Carousel Selection -->
+    <string name="post_by_author">Post by @%1$s</string>
+    <string name="carousel_items_count">%1$d items in post (%2$d selected)</string>
+    <string name="btn_select_all">Select All</string>
+    <string name="btn_deselect_all">Deselect All</string>
+    <string name="btn_download_selected">Download Selected (%1$d)</string>
+    <string name="btn_download_all">Download All (%1$d)</string>
+    <string name="badge_photo">PHOTO</string>
+    <string name="badge_video">VIDEO / REEL</string>
+    <string name="badge_unavailable">RESTRICTED</string>
+    <string name="item_unavailable_reason">Media stream omitted by Meta API (copyrighted audio or owner disabled Reel downloads).</string>
+
+    <!-- Progress & Status Messages -->
+    <string name="downloading_progress">Downloading item %1$d of %2$d (%3$d%%)</string>
+    <string name="download_success_summary">Saved %1$d file(s) to your phone gallery at original quality.</string>
+    <string name="btn_open_in_gallery">Open Latest File</string>
+
+    <!-- Understandable Error Messages -->
+    <string name="err_empty_url">Please paste an Instagram post or Reel link first.</string>
+    <string name="err_invalid_url">Only public Instagram post (/p/) or Reel (/reel/) links are supported. Stories, private profiles, and direct messages are not supported.</string>
+    <string name="err_no_api_configured">Direct media streams require an authorized Backend Proxy URL or Meta Graph API token in Settings. Public oEmbed only provides post metadata and a cover thumbnail.</string>
+    <string name="err_private_or_not_found">This post could not be accessed. It may belong to a private or personal account, or require permissions not granted to your API token.</string>
+    <string name="err_open_file_failed">Could not find a compatible gallery or media player app to open this file.</string>
+
+    <!-- History Screen -->
+    <string name="history_title">Download History</string>
+    <string name="history_empty">No downloads yet. Paste or share a public Instagram link to start.</string>
+    <string name="btn_open_file">Open File</string>
+    <string name="btn_share_file">Share</string>
+    <string name="btn_delete_entry">Remove</string>
+    <string name="btn_clear_history">Clear History</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings &amp; API Configuration</string>
+    <string name="settings_appearance">Appearance &amp; Language</string>
+    <string name="settings_dark_mode">Dark Mode (High Contrast)</string>
+    <string name="settings_language">App Language / اللغة</string>
+    <string name="lang_english">English</string>
+    <string name="lang_arabic">العربية (Arabic)</string>
+    <string name="settings_resolver_mode">Media Retrieval Mode</string>
+    <string name="mode_backend_proxy">Backend Proxy Server (Recommended - Keeps API keys on server)</string>
+    <string name="mode_direct_graph">Direct Meta Graph API (Own Professional Account / Business Discovery)</string>
+    <string name="mode_public_oembed">Public oEmbed Inspector (Metadata &amp; Thumbnail Preview Only)</string>
+    <string name="settings_backend_url">Backend Proxy Base URL</string>
+    <string name="settings_backend_token">Optional Client Bearer Token</string>
+    <string name="settings_graph_token">Meta Graph API Access Token (Encrypted Locally)</string>
+    <string name="settings_graph_user_id">Instagram Professional Account ID (IG_USER_ID)</string>
+    <string name="btn_save_settings">Save Configuration</string>
+    <string name="settings_saved_toast">Configuration saved.</string>
+    <string name="privacy_notice_title">Privacy &amp; Compliance Notice</string>
+    <string name="privacy_notice_body">This app never asks for your Instagram password or session cookies, and never bypasses private accounts or login walls. Use only with content you own or have permission to download.</string>
+</resources>

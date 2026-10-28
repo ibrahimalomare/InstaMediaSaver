@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">حافظ وسائط إنستغرام</string>
+    <string name="nav_download">التحميل</string>
+    <string name="nav_history">السجل</string>
+    <string name="nav_settings">الإعدادات</string>
+
+    <!-- Download / Home Screen -->
+    <string name="home_subtitle">تنزيل الصور ومقاطع ريلز والمنشورات المتعددة العامة التي تملكها أو لديك إذن بحفظها</string>
+    <string name="url_input_label">رابط منشور أو ريلز إنستغرام عام</string>
+    <string name="url_input_placeholder">https://www.instagram.com/p/ABC123xyz/ أو /reel/...</string>
+    <string name="btn_paste">لصق الرابط</string>
+    <string name="btn_clear">مسح</string>
+    <string name="btn_fetch_preview">معاينة الوسائط</string>
+    <string name="fetching_media">جاري جلب بيانات الوسائط…</string>
+
+    <!-- Preview & Carousel Selection -->
+    <string name="post_by_author">منشور بواسطة @%1$s</string>
+    <string name="carousel_items_count">%1$d عناصر في المنشور (%2$d محددة)</string>
+    <string name="btn_select_all">تحديد الكل</string>
+    <string name="btn_deselect_all">إلغاء التحديد</string>
+    <string name="btn_download_selected">تنزيل المحدد (%1$d)</string>
+    <string name="btn_download_all">تنزيل الكل (%1$d)</string>
+    <string name="badge_photo">صورة</string>
+    <string name="badge_video">فيديو / ريلز</string>
+    <string name="badge_unavailable">مقيّد</string>
+    <string name="item_unavailable_reason">لم تُرجع واجهة Meta الرسمية رابط الملف (بسبب حقوق الصوتيات أو إيقاف المالك لميزة تنزيل الريلز).</string>
+
+    <!-- Progress & Status Messages -->
+    <string name="downloading_progress">جاري تنزيل العنصر %1$d من %2$d (%3$d%%)</string>
+    <string name="download_success_summary">تم حفظ %1$d ملف(ات) في معرض الهاتف بأعلى جودة متاحة.</string>
+    <string name="btn_open_in_gallery">فتح آخر ملف</string>
+
+    <!-- Understandable Error Messages -->
+    <string name="err_empty_url">يرجى لصق رابط منشور أو ريلز إنستغرام أولاً.</string>
+    <string name="err_invalid_url">تُدعم فقط روابط المنشورات العامة (/p/) أو الريلز (/reel/). القصص والحسابات الخاصة والرسائل غير مدعومة.</string>
+    <string name="err_no_api_configured">يتطلب تنزيل الملفات الأصلية إعداد خادم وسيط (Backend Proxy) أو رمز Meta Graph API في الإعدادات. واجهة oEmbed العامة توفر المعاينة فقط.</string>
+    <string name="err_private_or_not_found">تعذّر الوصول إلى هذا المنشور. قد يكون الحساب خاصاً أو شخصياً أو غير مصرح به لرمز API الخاص بك.</string>
+    <string name="err_open_file_failed">لم يتم العثور على تطبيق معرض أو مشغل وسائط لفتح هذا الملف.</string>
+
+    <!-- History Screen -->
+    <string name="history_title">سجل التنزيلات</string>
+    <string name="history_empty">لا توجد تنزيلات حتى الآن. الصق أو شارك رابط إنستغرام عام للبدء.</string>
+    <string name="btn_open_file">فتح الملف</string>
+    <string name="btn_share_file">مشاركة</string>
+    <string name="btn_delete_entry">حذف</string>
+    <string name="btn_clear_history">مسح السجل</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">الإعدادات وإعداد واجهة API</string>
+    <string name="settings_appearance">المظهر واللغة</string>
+    <string name="settings_dark_mode">الوضع الداكن (تباين عالٍ)</string>
+    <string name="settings_language">لغة التطبيق / Language</string>
+    <string name="lang_english">English (الإنجليزية)</string>
+    <string name="lang_arabic">العربية</string>
+    <string name="settings_resolver_mode">طريقة جلب الوسائط</string>
+    <string name="mode_backend_proxy">خادم وسيط Backend Proxy (موصى به لحفظ المفاتيح السرية في الخادم)</string>
+    <string name="mode_direct_graph">واجهة Meta Graph API المباشرة (لحسابك الاحترافي)</string>
+    <string name="mode_public_oembed">معاينة oEmbed العامة (البيانات الأساسية والصورة المصغرة فقط)</string>
+    <string name="settings_backend_url">عنوان الخادم الوسيط (Backend URL)</string>
+    <string name="settings_backend_token">رمز المصادقة الاختياري للخادم</string>
+    <string name="settings_graph_token">رمز الوصول لـ Meta Graph API (يُحفظ مشفراً)</string>
+    <string name="settings_graph_user_id">معرّف حساب إنستغرام الاحترافي (IG_USER_ID)</string>
+    <string name="btn_save_settings">حفظ الإعدادات</string>
+    <string name="settings_saved_toast">تم حفظ الإعدادات بنجاح.</string>
+    <string name="privacy_notice_title">إشعار الخصوصية والامتثال</string>
+    <string name="privacy_notice_body">لا يطلب هذا التطبيق كلمة مرور إنستغرام أو ملفات تعريف الارتباط (Cookies)، ولا يتجاوز الحسابات الخاصة. استخدمه فقط مع المحتوى الذي تملكه أو تملك إذناً بتنزيله.</string>
+</resources>
